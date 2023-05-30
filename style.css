@@ -1,15 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 :root {
-    --blue: #4D91C9;
-    --dark: #02040F;
-    --green:#5AADB8;
-    --blue2: #659ACF;
-    --green2: #0B5C49;
+    --blue: #21D2FF;
+    --blue2:#20DAE8;
+    --green:#25E8BF;
+    --green2:#36FFF2;
+    --green3:#3DFFBB;
     --white: #fff;
+}
+
+body {
+    background-color: var(--green2);
+    height: 100vh;
+    font-family: 'verdana';
+    
+}
+
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15rem;
+   flex-wrap: wrap;
+   padding: 8rem;
+   background-color: var(--green);
+   min-height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    color: var(--white);
 }
